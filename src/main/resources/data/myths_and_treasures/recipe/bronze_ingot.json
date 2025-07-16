@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "myths_and_treasures:raw_bronze"
+  },
+  "result": {
+    "id": "myths_and_treasures:bronze_ingot",
+    "count": 1
+  },
+  "experience": 0.2,
+  "cookingtime": 100
+}

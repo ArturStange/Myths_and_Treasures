@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ll",
+    " bb",
+    " ll"
+  ],
+  "key": {
+    "b": [
+      "minecraft:raw_copper"
+    ],
+    "l": [
+      "minecraft:granite"
+    ]
+  },
+  "result": {
+    "id": "myths_and_treasures:raw_bronze",
+    "count": 1
+  }
+}
