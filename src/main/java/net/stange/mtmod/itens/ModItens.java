@@ -24,6 +24,11 @@ public class ModItens {
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MythsAndTreasures.MOD_ID, name), item);
     }
+    //Ferramentas de Bronze
+    //public static final Item BRONZE_SWORD = registerItem( "bronze_sword", new Item(new Item.Settings()
+            //.attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.BRONZE_INGOT)).registryKey(
+                    //RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MythsAndTreasures.MOD_ID,"bronze_sword")))));
+
 
     public static void registerModItens(){
         MythsAndTreasures.LOGGER.info("Registering Mod Itens for" + MythsAndTreasures.MOD_ID);
